@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container  bg-success my-5 col-md-3 ">
+        <h1 class="text-center mb-3 form-label ">Laboratorio <br>JavaScript</h1>
+        <div class="row justify-content-center">
+            <div class="col-md- col-lg-10">
+                <form id="datos_formulario">
+                    <div class="mb-3">
+                        <label for="name_1" class="form-label">Primer Nombre</label>
+                        <input type="text" class="form-control" id="name_1" name="name_1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name_2" class="form-label">Segundo Nombre</label>
+                        <input type="text" class="form-control" id="name_2" name="name_2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last_name1" class="form-label">Primer Apellido</label>
+                        <input type="text" class="form-control" id="last_name1" name="last_name1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last_name2" class="form-label">Segundo Apellido</label>
+                        <input type="text" class="form-control" id="last_name2" name="last_name2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dni" class="form-label">DNI</label>
+                        <input type="text" class="form-control" id="dni" name="dni">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fecha_nacimiento" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento">
+                    </div>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-primary" onclick="processData()">Procesar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-2 col-lg-10">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombres_completos" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" id="nombres_completos" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ultimo_digito_dni" class="form-label">Último Dígito del DNI</label>
+                        <input type="text" class="form-control" id="ultimo_digito_dni" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="text" class="form-control" id="edad" readonly>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

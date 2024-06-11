@@ -1,0 +1,15 @@
+* {
+    font-weight: bold;
+}
+
+.container h1{
+    font-size: 200%;
+}
+.container{
+    border-radius: 10px;
+}
+body{
+    background-image: url('dark_colors-Abstract_Design_wallpaper_1366x768.jpg');
+    background-size: cover;
+
+}
